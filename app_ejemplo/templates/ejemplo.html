@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+    </head>
+    <body>
+       
+        {% if variable == "Facundo" %}
+        <h1> Hola {{ variable }}</h1>
+        {% else %}
+        {% for nombre in personas %}
+            <h1> hola {{nombre}}</h1>
+        {% endfor %}
+        {% endif %}
+    </body>
+</html>
